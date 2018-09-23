@@ -4,87 +4,245 @@ body{
  line-height: 24px;
  font-family: "Roboto Font Family", Roboto, sans-serif; 
  color: #000000;
- text-transform: uppercase;
  background-color: #ffffff;
+ margin: 0px;
  }
  
  .header{
- width: 100%;
+ /*width: 100%;*/
+ width: 1260px;
  height: 545px;
- background-color: rgb(255,255,255);
+ background-color: #eeeeee;
+ padding-left: 140px;
+ padding-right: 140px;
 }
 
-.clearfix:after {
- content: "";
- display: table;
- clear: both;
+.firstPart{
+ width: 1260px;/*1440-120-120*/
+ height: 132px;
+ display: block;
 }
 
 .logo{
  background-position: left;
  background-repeat: no-repeat;
- width: 368px;
- height: 204px;
- margin-left: 140px;
- margin-right: 200px;
+ width: 160px;
+ height: 65px;
+ /*margin-right: 200px;*/
  margin-top: 50px;
- margin-bottom: auto;
+ margin-bottom: 16px;
+ /*padding-left: 10px;*/
+ float: left;
  }
  
- .features{
- width: 1160px;
- margin: auto;
- text-align: center;
- padding-top: 85px;
- padding-bottom: 80px;
- background-color: pink;
-}
-
-#features-1{
- width: 33.3%;
- float: left;
- height: 345px;
-}
-
-#features-2{
- width: 33.3%;
- float: left;
- text-align: center;
- height: 345px;
-}
-
-#features-3{
- width: 33.3%;
- float: right;
- height: 345px;
-}
-
-  
 .list{
- width: 445px;
+ width: 500px;/*445+50*/
  float: left;
- margin-right: 232px;
+ margin-top: 64px; /*80-16*/
+ margin-left: 200px;
 }
- .cart{
+
+.cart{
  width: 75px;
  float: right;
  box-sizing: border-box;
- margin-right: 218px;
+ margin-top: 80px; 
+ display: block;
+ margin-right: 140px;/*140-45*/
  }
  
- .list a,
- .cart a{
+.list a,
+.cart a{
  color: 000000;
  text-decoration: none;
+ text-transform: uppercase;
  }
  
- .list li{
+.list li{
  display: inline;
- margin-right: 45px;
+ padding-right: 46px;
  }
  
- .container{
+.list ul{
+ -webkit-margin-before: 1em;
+ -webkit-margin-after: 1em;
+ -webkit-margin-start: 0px;
+ -webkit-margin-end: 0px;
+ -webkit-padding-start: 0px;
+ }
+ 
+.slideshow1{
+ width: 1300px;
+ height: 413px;
+ display: inline-block;
+}
+
+.infoLeft{
+ width: 380px;
+ height: 413px;
+ float: left;
+ margin-right: 50px;
+ }
+  
+.slides{
+ width: 698px;
+ height: 413px;
+ float: right;
+ margin-right: 170px;
+ }
+ 
+.slogan{
+ font-size: 55px;
+ line-height: 55px;
+ font-family: "Roboto Font Family", Roboto Medium; 
+ color: #000000;
+ margin-top: 60px;
+ margin-bottom: 20px;
+}
+
+ p{
+ font-size: 16px;
+ line-height: 24px;
+ font-family: "Roboto Font Family", Roboto Regular; 
+ color: #000000;
+ display: block;
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+ 
+#readMore{
+ width: 240px;
+ height: 50px;
+ font-size: 16px;
+ line-height: 18px;
+ font-family: "Roboto Font Family", Roboto Medium; 
+ color: #ffffff;
+ background-color: #fb565a;
+ text-transform: uppercase;
+ border: none;
+ border-radius: 2px;
+ margin-top: 45px;
+ margin-bottom: 80px;
+ padding: 0px;
+}
+
+button{
+ width: 160px;
+ height: 50px;
+ font-size: 16px;
+ line-height: 18px;
+ font-family: "Roboto Font Family", Roboto Medium; 
+ color: #ffffff;
+ background-color: #fb565a;
+ text-transform: uppercase;
+ border: none;
+ border-radius: 2px;
+ margin-top: 30px;
+ /*margin-bottom: 80px;*/
+ padding: 0px;
+}
+
+.features{
+ width: 1300px;
+ height: 435px; /*(515-80)*/
+ margin-top: 80px;
+ margin-bottom: 85px;
+ padding-left: 140px;
+ margin-right: 140px;
+ text-align: left;
+ margin-left: 0px;
+ /*padding-top: 85px;
+ padding-bottom: 80px;*/
+ background-color: #ffffff;
+}
+
+h2{
+ font-size: 24px;
+ line-height: 30px;
+ font-weight: bold;
+ font-family: "Roboto Font Family", Roboto; 
+ color: #000000;
+ text-transform: uppercase;
+}
+
+#features-1{
+ width: 300px;
+ float: left;
+ height: 350px;
+ margin-right: 100px;
+ }
+
+#features-2{
+ width: 300px;
+ float: left;
+ height: 350px;
+ margin-right: 100px;
+}
+
+#features-3{
+ width: 300px;
+ float: left;
+ height: 350px;
+ margin-right: 70px;
+}
+
+.container{
  width: 1440px;
- margin: auto;
+ margin: 0px;
  background-color: green;
+}
+
+.promo{
+ width: 1300px;
+ height:435px;/*530-40-55*/
+ padding-left: 140px;
+ margin-right: 140px;
+ background-color: gray;
+ padding-top: 40px;
+ padding-bottom: 55px;
+}
+
+.slogan-2{
+ font-size: 45px;
+ line-height: 45px;
+ font-family: "Roboto Font Family", Roboto Medium; 
+ color: #000000;
+ background-color: #fb565a;
+ margin-top: 30px;
+ margin-bottom: 55px;
+ }
+ 
+.leftPromo{
+ width: 660px;
+ float: left;
+ margin-right: 140px;
+}
+
+.rightPromo{
+ width: 360px; 
+ float: right;
+}
+
+
+h3{
+ font-size: 16px;
+ line-height: 24px;
+ text-transform: uppercase;
+ padding-top: 60px;
+ padding-bottom: 20px;
+}
+.orders {
+ width: 660px;
+ margin: 0px;
+}
+.orders li{
+ padding-bottom: 20px;
+ margin: 0px;
+}
+
+.orders ul{
+ width: 660px;
+ margin: 0px;
 }
