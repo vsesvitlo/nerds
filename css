@@ -316,7 +316,7 @@ color: red;
  float: left;
  padding-right: 140px;
  margin-top: 0px;
- margin-bottom: 0px;
+ margin-bottom: 80px;
  margin-left: 140px;
 }
 
@@ -338,9 +338,44 @@ color: red;
  margin-bottom: 0px;
  padding-left: 30px;
  }
+ 
  .maps{
- background: url("img/.jpg");
+ background: url("img/maps1.png");
+ width: 1440px;
+ height: 410px;
+ margin-top: 80px;
+ clear: both;
+ padding-left: 140px;
+}
+
+.adress{
+ width: 220px;
+ float: left;
+ margin-right: 50px;
+ padding-top: 110px;
+}
+
+.name{
+ font-size: 18px;
+ line-height: 30px;
+ font-family: "Roboto Font Family", Roboto; 
+ color: #000000;
+ text-transform: uppercase;
+}
+
+.locationLeft{
+ width: 320px;
+ height: 310px;
+ margin-right: 140px;
+ float: left;
+ background-color: #ffffff;
  }
+
+.locationRight{
+ width: 230px;
+ height: 190px;
+}
+ 
 .footer{
  width: 1160px;
  height: 217px;
@@ -361,7 +396,8 @@ color: red;
  font-size: 36px;
  line-height: 36px;
  font-weight: bold;
- font-family: "Roboto Font Family", Roboto ; 
+ font-family: "Roboto Font Family", Roboto;
+ font-weight: bold;
  color: #000000;
  margin-top: 90px;
 }
